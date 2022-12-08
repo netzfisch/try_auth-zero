@@ -76,3 +76,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+# Use rotp for generating and validating one time passwords [https://github.com/mdp/rotp]
+gem "rotp"
+# Use rqrcode for creating and rendering QR codes into various formats [https://github.com/whomwah/rqrcode]
+gem "rqrcode"
